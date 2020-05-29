@@ -25,6 +25,29 @@
     "flow-web-app-e2e": {
       "tags": [],
       "implicitDependencies": ["flow-web-app"]
+    },
+    "ui-kit": {
+      "tags": []
+    },
+    "swap-clear-web-app": {
+      "tags": []
+    },
+    "swap-clear-web-app-e2e": {
+      "tags": [],
+      "implicitDependencies": ["swap-clear-web-app"]
+    },
+    "swap-clear": {
+      "tags": []
+    },
+    "common": {
+      "tags": []
+    },
+    "ui-kit-showcase": {
+      "tags": []
+    },
+    "ui-kit-showcase-e2e": {
+      "tags": [],
+      "implicitDependencies": ["ui-kit-showcase"]
     }
   }
 }

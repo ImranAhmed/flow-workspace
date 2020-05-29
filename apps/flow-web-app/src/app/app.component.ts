@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'flow-workspace-root',
+  selector: 'flow-web-app',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
 })
