@@ -23,7 +23,12 @@
             "aot": true,
             "assets": [
               "apps/flow-web-app/src/favicon.ico",
-              "apps/flow-web-app/src/assets"
+              "apps/flow-web-app/src/assets",
+              {
+                "glob": "**/*",
+                "input": "libs/assets/src/lib/images",
+                "output": "./assets/images"
+              }
             ],
             "stylePreprocessorOptions": {
               "includePaths": ["libs/assets/src/lib/styles/"]
