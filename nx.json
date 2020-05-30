@@ -14,7 +14,13 @@
     "default": {
       "runner": "@nrwl/workspace/tasks-runners/default",
       "options": {
-        "cacheableOperations": ["build", "lint", "test", "e2e"]
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e",
+          "build-storybook"
+        ]
       }
     }
   },
@@ -24,7 +30,9 @@
     },
     "flow-web-app-e2e": {
       "tags": [],
-      "implicitDependencies": ["flow-web-app"]
+      "implicitDependencies": [
+        "flow-web-app"
+      ]
     },
     "ui-kit": {
       "tags": []
@@ -34,7 +42,9 @@
     },
     "swap-clear-web-app-e2e": {
       "tags": [],
-      "implicitDependencies": ["swap-clear-web-app"]
+      "implicitDependencies": [
+        "swap-clear-web-app"
+      ]
     },
     "swap-clear": {
       "tags": []
@@ -47,7 +57,9 @@
     },
     "ui-kit-showcase-e2e": {
       "tags": [],
-      "implicitDependencies": ["ui-kit-showcase"]
+      "implicitDependencies": [
+        "ui-kit-showcase"
+      ]
     },
     "assets": {
       "tags": [],
