@@ -33,7 +33,7 @@
             "stylePreprocessorOptions": {
               "includePaths": ["libs/assets/src/lib/styles/"]
             },
-            "styles": ["apps/flow-web-app/src/styles.scss"],
+            "styles": [],
             "scripts": []
           },
           "configurations": {
