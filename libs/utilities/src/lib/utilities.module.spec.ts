@@ -1,14 +1,14 @@
 import { async, TestBed } from '@angular/core/testing';
-import { CommonModule } from './common.module';
+import { UtilitiesModule } from './utilities.module';
 
-describe('CommonModule', () => {
+describe('UtilitiesModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [CommonModule],
+      imports: [UtilitiesModule],
     }).compileComponents();
   }));
 
   it('should create', () => {
-    expect(CommonModule).toBeDefined();
+    expect(UtilitiesModule).toBeDefined();
   });
 });

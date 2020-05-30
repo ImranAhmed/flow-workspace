@@ -1,10 +1,10 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { CommonModule as FlowCommon } from '@flow-workspace/common';
+import { UtilitiesModule } from '@flow-workspace/utilities';
 import { UserDetailsComponent } from './components/user-details/user-details.component';
 
 @NgModule({
-  imports: [CommonModule, FlowCommon],
+  imports: [CommonModule, UtilitiesModule],
   declarations: [UserDetailsComponent],
   exports: [UserDetailsComponent],
 })

@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { User } from '@flow-workspace/common';
+import { User } from '@flow-workspace/utilities';
 
 @Component({
   selector: 'ui-kit-user-details',

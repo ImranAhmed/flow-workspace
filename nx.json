@@ -38,12 +38,12 @@
     "swap-clear": {
       "tags": []
     },
-    "common": {
-      "tags": []
-    },
     "assets": {
       "tags": [],
       "implicitDependencies": ["flow-web-app"]
+    },
+    "utilities": {
+      "tags": []
     }
   }
 }
