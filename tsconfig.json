@@ -18,7 +18,8 @@
     "paths": {
       "@flow-workspace/ui-kit": ["libs/ui-kit/src/index.ts"],
       "@flow-workspace/swap-clear": ["libs/swap-clear/src/index.ts"],
-      "@flow-workspace/common": ["libs/common/src/index.ts"]
+      "@flow-workspace/common": ["libs/common/src/index.ts"],
+      "@flow-workspace/assets": ["libs/assets/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

@@ -48,6 +48,9 @@
     "ui-kit-showcase-e2e": {
       "tags": [],
       "implicitDependencies": ["ui-kit-showcase"]
+    },
+    "assets": {
+      "tags": []
     }
   }
 }
