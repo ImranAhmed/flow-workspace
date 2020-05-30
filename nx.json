@@ -50,7 +50,12 @@
       "implicitDependencies": ["ui-kit-showcase"]
     },
     "assets": {
-      "tags": []
+      "tags": [],
+      "implicitDependencies": [
+        "flow-web-app",
+        "swap-clear-web-app",
+        "ui-kit-showcase"
+      ]
     }
   }
 }
