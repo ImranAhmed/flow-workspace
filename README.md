@@ -79,6 +79,12 @@ Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
 
 Run `nx dep-graph` to see a diagram of the dependencies of your projects.
 
+## Run storybook
+
+Run `npm run storybook:g` to generate storybook tests for library ui-kit.
+
+Run `npm run storybook` to view storybook for library ui-kit.
+
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev/angular) to learn more.
