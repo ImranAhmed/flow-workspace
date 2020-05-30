@@ -31,7 +31,6 @@
   },
   "private": true,
   "dependencies": {
-    "@nrwl/angular": "9.3.0",
     "@angular/animations": "^9.1.0",
     "@angular/common": "^9.1.0",
     "@angular/compiler": "^9.1.0",
@@ -40,6 +39,7 @@
     "@angular/platform-browser": "^9.1.0",
     "@angular/platform-browser-dynamic": "^9.1.0",
     "@angular/router": "^9.1.0",
+    "@nrwl/angular": "9.3.0",
     "core-js": "^2.5.4",
     "rxjs": "~6.5.4",
     "zone.js": "^0.10.2"
@@ -58,6 +58,7 @@
     "@storybook/addon-storysource": "^5.3.19",
     "@storybook/addon-viewport": "^5.3.19",
     "@storybook/angular": "5.3.9",
+    "@storybook/source-loader": "^5.3.19",
     "@types/jest": "25.1.4",
     "@types/node": "~8.9.4",
     "codelyzer": "~5.0.1",
