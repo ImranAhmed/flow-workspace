@@ -30,9 +30,7 @@
     },
     "flow-web-app-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "flow-web-app"
-      ]
+      "implicitDependencies": ["flow-web-app"]
     },
     "ui-kit": {
       "tags": []
@@ -42,9 +40,7 @@
     },
     "swap-clear-web-app-e2e": {
       "tags": [],
-      "implicitDependencies": [
-        "swap-clear-web-app"
-      ]
+      "implicitDependencies": ["swap-clear-web-app"]
     },
     "swap-clear": {
       "tags": []
@@ -52,22 +48,9 @@
     "common": {
       "tags": []
     },
-    "ui-kit-showcase": {
-      "tags": []
-    },
-    "ui-kit-showcase-e2e": {
-      "tags": [],
-      "implicitDependencies": [
-        "ui-kit-showcase"
-      ]
-    },
     "assets": {
       "tags": [],
-      "implicitDependencies": [
-        "flow-web-app",
-        "swap-clear-web-app",
-        "ui-kit-showcase"
-      ]
+      "implicitDependencies": ["flow-web-app", "swap-clear-web-app"]
     }
   }
 }

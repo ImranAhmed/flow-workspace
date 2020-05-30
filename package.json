@@ -5,8 +5,6 @@
   "scripts": {
     "ng": "ng",
     "nx": "nx",
-    "storybook:generate": "nx generate stories --name=ui-kit",
-    "storybook:serve": "nx run ui-kit:storybook",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -27,7 +25,9 @@
     "workspace-schematic": "nx workspace-schematic",
     "dep-graph": "nx dep-graph",
     "help": "nx help",
-    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points"
+    "postinstall": "ngcc --properties es2015 browser module main --first-only --create-ivy-entry-points",
+    "storybook:g": "nx generate stories --name=ui-kit",
+    "storybook": "nx run ui-kit:storybook"
   },
   "private": true,
   "dependencies": {
