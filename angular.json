@@ -194,38 +194,6 @@
         }
       }
     },
-    "swap-clear": {
-      "projectType": "library",
-      "root": "libs/swap-clear",
-      "sourceRoot": "libs/swap-clear/src",
-      "prefix": "swap-clear",
-      "architect": {
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "libs/swap-clear/tsconfig.lib.json",
-              "libs/swap-clear/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**", "!libs/swap-clear/**"]
-          }
-        },
-        "test": {
-          "builder": "@nrwl/jest:jest",
-          "options": {
-            "jestConfig": "libs/swap-clear/jest.config.js",
-            "tsConfig": "libs/swap-clear/tsconfig.spec.json",
-            "passWithNoTests": true,
-            "setupFile": "libs/swap-clear/src/test-setup.ts"
-          }
-        }
-      },
-      "schematics": {
-        "@nrwl/angular:component": {
-          "style": "scss"
-        }
-      }
-    },
     "assets": {
       "projectType": "library",
       "root": "libs/assets",
@@ -265,6 +233,38 @@
         }
       },
       "schematics": {}
+    },
+    "flow": {
+      "projectType": "library",
+      "root": "libs/flow",
+      "sourceRoot": "libs/flow/src",
+      "prefix": "flow",
+      "architect": {
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "libs/flow/tsconfig.lib.json",
+              "libs/flow/tsconfig.spec.json"
+            ],
+            "exclude": ["**/node_modules/**", "!libs/flow/**"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "libs/flow/jest.config.js",
+            "tsConfig": "libs/flow/tsconfig.spec.json",
+            "passWithNoTests": true,
+            "setupFile": "libs/flow/src/test-setup.ts"
+          }
+        }
+      },
+      "schematics": {
+        "@nrwl/angular:component": {
+          "style": "scss"
+        }
+      }
     }
   },
   "cli": {

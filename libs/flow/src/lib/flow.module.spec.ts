@@ -1,14 +1,14 @@
 import { async, TestBed } from '@angular/core/testing';
-import { SwapClearModule } from './swap-clear.module';
+import { FlowModule } from './flow.module';
 
-describe('SwapClearModule', () => {
+describe('FlowModule', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      imports: [SwapClearModule],
+      imports: [FlowModule],
     }).compileComponents();
   }));
 
   it('should create', () => {
-    expect(SwapClearModule).toBeDefined();
+    expect(FlowModule).toBeDefined();
   });
 });

@@ -26,16 +26,13 @@
   },
   "projects": {
     "flow-web-app": {
-      "tags": []
+      "tags": ["flow"]
     },
     "flow-web-app-e2e": {
       "tags": [],
-      "implicitDependencies": ["flow-web-app"]
+      "implicitDependencies": ["flow-web-app", "flow"]
     },
     "ui-kit": {
-      "tags": []
-    },
-    "swap-clear": {
       "tags": []
     },
     "assets": {
@@ -43,6 +40,9 @@
       "implicitDependencies": ["flow-web-app"]
     },
     "utilities": {
+      "tags": []
+    },
+    "flow": {
       "tags": []
     }
   }

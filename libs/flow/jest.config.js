@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'swap-clear',
+  name: 'flow',
   preset: '../../jest.config.js',
-  coverageDirectory: '../../coverage/libs/swap-clear',
+  coverageDirectory: '../../coverage/libs/flow',
   snapshotSerializers: [
     'jest-preset-angular/build/AngularNoNgAttributesSnapshotSerializer.js',
     'jest-preset-angular/build/AngularSnapshotSerializer.js',
