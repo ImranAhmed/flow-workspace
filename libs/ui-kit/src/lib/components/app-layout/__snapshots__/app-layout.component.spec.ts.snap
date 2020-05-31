@@ -1,0 +1,159 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppLayoutComponent with navigation should match snapshot 1`] = `
+<ui-kit-app-layout
+  activeApp={[Function Object]}
+  activeAppId={[Function String]}
+  navigationMenu={[Function Array]}
+>
+  <clr-main-container
+    class="main-container"
+  >
+    <clr-header
+      class="header-6 header"
+    >
+      
+      <button
+        aria-label="Open"
+        class="header-hamburger-trigger ng-star-inserted"
+        type="button"
+      >
+        <span />
+      </button>
+      <div
+        class="branding"
+      />
+      <div
+        class="header-actions"
+      />
+      
+      <div
+        class="header-backdrop"
+      />
+    </clr-header>
+    
+    <div
+      class="content-container ng-star-inserted"
+    >
+      <clr-vertical-nav
+        class="nav-trigger--bottom clr-vertical-nav clr-nav-level-1 has-nav-groups has-icons"
+      >
+        
+        <button
+          aria-expanded="true"
+          aria-label="Toggle vertical navigation"
+          class="nav-trigger ng-star-inserted"
+          type="button"
+        >
+          <clr-icon
+            class="nav-trigger-icon"
+            dir="left"
+            shape="angle-double"
+            title="Collapse"
+          />
+        </button>
+        <div
+          class="nav-content"
+        >
+          
+          <clr-vertical-nav-group
+            class="nav-group ng-tns-c7-0 ng-star-inserted"
+            title="Section A"
+          >
+            <div
+              class="nav-group-content"
+            >
+              <button
+                aria-expanded="false"
+                aria-label="Toggle vertical navigation group"
+                class="nav-group-trigger"
+                type="button"
+              >
+                <clr-icon
+                  class="nav-icon"
+                  clrverticalnavicon=""
+                  shape="scatter-plot"
+                />
+                <div
+                  class="nav-group-text"
+                >
+                   Section A 
+                </div>
+                <clr-icon
+                  class="nav-group-trigger-icon"
+                  dir="right"
+                  shape="caret"
+                  title="Expand"
+                />
+              </button>
+            </div>
+            <div
+              class="nav-group-children ng-trigger ng-trigger-clrExpand"
+              style="height:0px;overflow-y:hidden;visibility:hidden;0:height;1:overflow-y;2:visibility;"
+            >
+              <clr-vertical-nav-group-children>
+                
+                <a
+                  class="nav-link ng-star-inserted"
+                  clrverticalnavlink=""
+                  href="/section-a1"
+                  style=""
+                >
+                  <span
+                    class="nav-text"
+                  >
+                     Section A1 
+                  </span>
+                </a>
+                <a
+                  class="nav-link ng-star-inserted"
+                  clrverticalnavlink=""
+                  href="/"
+                  style=""
+                >
+                  <span
+                    class="nav-text"
+                  >
+                     Section A2 
+                  </span>
+                </a>
+              </clr-vertical-nav-group-children>
+            </div>
+          </clr-vertical-nav-group>
+          
+        </div>
+      </clr-vertical-nav>
+      <main
+        class="content-area"
+      />
+    </div>
+  </clr-main-container>
+</ui-kit-app-layout>
+`;
+
+exports[`AppLayoutComponent without navigation should match snapshot 1`] = `
+<ui-kit-app-layout
+  navigationMenu="null"
+>
+  <clr-main-container
+    class="main-container"
+  >
+    <clr-header
+      class="header-6 header"
+    >
+      
+      <div
+        class="branding"
+      />
+      <div
+        class="header-actions"
+      />
+      
+      <div
+        class="header-backdrop"
+      />
+    </clr-header>
+    
+  </clr-main-container>
+</ui-kit-app-layout>
+`;

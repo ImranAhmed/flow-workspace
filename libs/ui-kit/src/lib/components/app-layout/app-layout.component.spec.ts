@@ -63,19 +63,21 @@ describe('AppLayoutComponent', () => {
     expect(elements.length).toBe(1);
   });
 
-  it('should contain header', () => {
-    const elements = fixture.nativeElement.querySelectorAll('clr-header.header-6');
-    expect(elements.length).toBe(1);
-  });
+  describe('header', () => {
+    it('should contain header', () => {
+      const elements = fixture.nativeElement.querySelectorAll('clr-header.header-6');
+      expect(elements.length).toBe(1);
+    });
 
-  it('should contain branding', () => {
-    const elements = fixture.nativeElement.querySelectorAll('div.branding');
-    expect(elements.length).toBe(1);
-  });
+    it('should contain branding', () => {
+      const elements = fixture.nativeElement.querySelectorAll('div.branding');
+      expect(elements.length).toBe(1);
+    });
 
-  it('should contain header-actions', () => {
-    const elements = fixture.nativeElement.querySelectorAll('div.header-actions');
-    expect(elements.length).toBe(1);
+    it('should contain header-actions', () => {
+      const elements = fixture.nativeElement.querySelectorAll('div.header-actions');
+      expect(elements.length).toBe(1);
+    });
   });
 
   describe('without navigation', () => {
@@ -84,6 +86,10 @@ describe('AppLayoutComponent', () => {
       component = fixture.componentInstance;
       component.navigationMenu = null;
       fixture.detectChanges();
+    });
+
+    it('should match snapshot', () => {
+      expect(fixture).toMatchSnapshot();
     });
 
     it('should not contain content container', () => {
@@ -98,6 +104,10 @@ describe('AppLayoutComponent', () => {
       component = fixture.componentInstance;
       component.navigationMenu = getNavigationMenu();
       fixture.detectChanges();
+    });
+
+    it('should match snapshot', () => {
+      expect(fixture).toMatchSnapshot();
     });
 
     it('should contain container', () => {
