@@ -20,44 +20,26 @@ Nx supports many plugins which add capabilities for developing different types o
 
 These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
 
-Below are some plugins which you can add to your workspace:
+Below are the main plugins used by this workspace:
 
 - [Angular](https://angular.io)
   - `ng add @nrwl/angular`
-- [React](https://reactjs.org)
-  - `ng add @nrwl/react`
-- Web (no framework frontends)
-  - `ng add @nrwl/web`
-- [Nest](https://nestjs.com)
-  - `ng add @nrwl/nest`
-- [Express](https://expressjs.com)
-  - `ng add @nrwl/express`
-- [Node](https://nodejs.org)
-  - `ng add @nrwl/node`
 
-## Generate an application
+## USeful commands
 
-Run `ng g @nrwl/angular:app my-app` to generate an application.
+| Command                                                   | Action                     | Notes                                                                                                                                                                     |
+| --------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ng g @nrwl/angular:app my-app`                           | Generate application.      | When using Nx, you can create multiple applications and libraries in the same workspace.                                                                                  |
+| `ng g @nrwl/angular:lib my-lib`                           | Generate a library.        | Libraries are sharable across other libraries and applications. They can be imported from `@flow-workspace/my-lib`.                                                       |
+| `ng serve`                                                | Run the main flow-web-app. | Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.                                                              |
+| `ng serve my-app`                                         | Run a specific app.        | Navigate to url specified in console output. The app will automatically reload if you change any of the source files.                                                     |
+| `ng g component components/my-component --project=ui-kit` | Generate component.        | Generate a new component in library ui-kit and directory/components. Add component name to [exports] in ui-kit.module in order to make this available outside the module. |
 
-> You can use any of the plugins above to generate applications as well.
+## Run storybook
 
-When using Nx, you can create multiple applications and libraries in the same workspace.
+Run `npm run storybook:g` to generate storybook tests for library ui-kit.
 
-## Generate a library
-
-Run `ng g @nrwl/angular:lib my-lib` to generate a library.
-
-> You can also use any of the plugins above to generate libraries as well.
-
-Libraries are sharable across libraries and applications. They can be imported from `@flow-workspace/mylib`.
-
-## Development server
-
-Run `ng serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng g component my-component --project=my-app` to generate a new component.
+Run `npm run storybook` to view storybook for library ui-kit.
 
 ## Build
 
@@ -78,12 +60,6 @@ Run `nx affected:e2e` to execute the end-to-end tests affected by a change.
 ## Understand your workspace
 
 Run `nx dep-graph` to see a diagram of the dependencies of your projects.
-
-## Run storybook
-
-Run `npm run storybook:g` to generate storybook tests for library ui-kit.
-
-Run `npm run storybook` to view storybook for library ui-kit.
 
 ## Further help
 
