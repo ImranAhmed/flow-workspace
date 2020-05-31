@@ -43,4 +43,18 @@ describe('AppLayoutComponent', () => {
     const elements = fixture.nativeElement.querySelectorAll('div.header-actions');
     expect(elements.length).toBe(1);
   });
+
+  describe('Without Navigation', () => {
+    beforeEach(() => {
+      fixture = TestBed.createComponent(AppLayoutComponent);
+      component = fixture.componentInstance;
+      component.navigationMenu = null;
+      fixture.detectChanges();
+    });
+
+    it('should not contain', () => {
+      const elements = fixture.nativeElement.querySelectorAll('div.content-container');
+      expect(elements.length).toBe(0);
+    });
+  });
 });
