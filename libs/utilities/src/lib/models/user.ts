@@ -1,3 +1,5 @@
 export interface User {
-  name: string;
+  displayName: string;
+  avatar: string;
+  clientCode: string;
 }

@@ -11,6 +11,6 @@ export const primary = () => ({
   },
   component: UserDetailsComponent,
   props: {
-    user: object('user', { name: 'Imran Ahmed' }),
+    user: object('user', { displayName: 'Imran Ahmed' }),
   },
 });
