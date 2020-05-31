@@ -9,14 +9,7 @@ import { AppLayoutComponent } from './components/app-layout/app-layout.component
 import { UserDetailsComponent } from './components/user-details/user-details.component';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    CommonModule,
-    RouterModule,
-    UtilitiesModule,
-    ClarityModule,
-  ],
+  imports: [BrowserModule, BrowserAnimationsModule, CommonModule, RouterModule, UtilitiesModule, ClarityModule],
   declarations: [UserDetailsComponent, AppLayoutComponent],
   exports: [UserDetailsComponent, AppLayoutComponent],
 })

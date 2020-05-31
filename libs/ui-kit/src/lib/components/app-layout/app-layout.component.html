@@ -5,26 +5,12 @@
   </clr-header>
 
   <div class="content-container" *ngIf="activeApp">
-    <clr-vertical-nav
-      [clrVerticalNavCollapsible]="true"
-      class="nav-trigger--bottom"
-      [clr-nav-level]="1"
-    >
-      <clr-vertical-nav-group
-        [attr.title]="nav.name"
-        [class.active]="nav.id === activeModuleId"
-        *ngFor="let nav of activeApp.navigation"
-      >
+    <clr-vertical-nav [clrVerticalNavCollapsible]="true" class="nav-trigger--bottom" [clr-nav-level]="1">
+      <clr-vertical-nav-group [attr.title]="nav.name" [class.active]="nav.id === activeModuleId" *ngFor="let nav of activeApp.navigation">
         <clr-icon [attr.shape]="nav.icon" clrVerticalNavIcon></clr-icon>
         {{ nav.name }}
         <clr-vertical-nav-group-children>
-          <a
-            [routerLink]="c.href"
-            class="nav-link"
-            [class.active]="c.href === activeUrl"
-            *ngFor="let c of nav.children"
-            clrVerticalNavLink
-          >
+          <a [routerLink]="c.href" class="nav-link" [class.active]="c.href === activeUrl" *ngFor="let c of nav.children" clrVerticalNavLink>
             {{ c.name }}
           </a>
         </clr-vertical-nav-group-children>

@@ -57,12 +57,7 @@ const getNavigationMenu = (): any[] => {
 
 const getModuleMetadata = () => {
   return {
-    imports: [
-      BrowserModule,
-      BrowserAnimationsModule,
-      ClarityModule,
-      RouterModule.forRoot([], { useHash: true }),
-    ],
+    imports: [BrowserModule, BrowserAnimationsModule, ClarityModule, RouterModule.forRoot([], { useHash: true })],
     providers: [{ provide: APP_BASE_HREF, useValue: '/' }],
   };
 };

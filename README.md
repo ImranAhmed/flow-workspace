@@ -44,6 +44,8 @@ Below are the main plugins used by this workspace:
 | `ng e2e my-app`                                           | Execute end-to-end tests.                                                            | Executes e2e tests for a specific application or library.                                                                                                                      |
 | `nx affected:e2e`                                         | Execute end-to-end tests.                                                            | Execute e2e tests affected by a change.                                                                                                                                        |
 | `nx dep-graph`                                            | Load [dependency graph](https://nx.dev/angular/guides/monorepo-dependency-diagrams). | Navigate to url specified in console output. <br/><br/>View diagram of the dependencies of your projects.                                                                      |
+| `npm run format`                                          | (Format)[https://nx.dev/angular/cli/format-write] code.                              | Formats code as per (pretter)[https://prettier.io/] spec.                                                                                                                      |
+| `npm run format:check`                                    | Check format.                                                                        | Returns a list of files that require formatting without formatting them                                                                                                        |
 
 ## Further help
 
