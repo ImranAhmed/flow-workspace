@@ -25,15 +25,16 @@ Below are the main plugins used by this workspace:
 - [Angular](https://angular.io)
   - `ng add @nrwl/angular`
 
-## USeful commands
+## Useful commands
 
-| Command                                                   | Action                     | Notes                                                                                                                                                                     |
-| --------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `ng g @nrwl/angular:app my-app`                           | Generate application.      | When using Nx, you can create multiple applications and libraries in the same workspace.                                                                                  |
-| `ng g @nrwl/angular:lib my-lib`                           | Generate a library.        | Libraries are sharable across other libraries and applications. They can be imported from `@flow-workspace/my-lib`.                                                       |
-| `ng serve`                                                | Run the main flow-web-app. | Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.                                                              |
-| `ng serve my-app`                                         | Run a specific app.        | Navigate to url specified in console output. The app will automatically reload if you change any of the source files.                                                     |
-| `ng g component components/my-component --project=ui-kit` | Generate component.        | Generate a new component in library ui-kit and directory/components. Add component name to [exports] in ui-kit.module in order to make this available outside the module. |
+| Command                                                   | Action                                                 | Notes                                                                                                                                                                     |
+| --------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `ng g @nrwl/angular:app my-app`                           | Generate application.                                  | When using Nx, you can create multiple applications and libraries in the same workspace.                                                                                  |
+| `ng g @nrwl/angular:lib my-lib`                           | Generate a library.                                    | Libraries are sharable across other libraries and applications. They can be imported from `@flow-workspace/my-lib`.                                                       |
+| `ng serve`                                                | Run the main flow-web-app.                             | Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.                                                              |
+| `ng serve my-app`                                         | Run a specific app.                                    | Navigate to url specified in console output. The app will automatically reload if you change any of the source files.                                                     |
+| `ng g component components/my-component --project=ui-kit` | Generate component.                                    | Generate a new component in library ui-kit and directory/components. Add component name to [exports] in ui-kit.module in order to make this available outside the module. |
+| `npm run storybook:g`                                     | Generate [storybook](https://storybook.js.org/) tests. | Generate storybook tests for library.                                                                                                                                     |
 
 ## Run storybook
 
