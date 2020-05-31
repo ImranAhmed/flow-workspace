@@ -1,4 +1,9 @@
+import '@clr/icons/clr-icons.min.css';
+import '@clr/icons/clr-icons.min.js';
+import '@clr/ui/clr-ui.min.css';
 import '@storybook/addon-actions/register';
 import '@storybook/addon-knobs/register';
 import '@storybook/addon-storysource/register';
 import '@storybook/addon-viewport/register';
+import '@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js';
+import '@webcomponents/webcomponentsjs/webcomponents-bundle.js';
