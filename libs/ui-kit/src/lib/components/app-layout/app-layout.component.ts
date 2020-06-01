@@ -1,10 +1,11 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { ChangeDetectionStrategy, Component, Input, OnInit } from '@angular/core';
 import { AppNavigation } from '@flow-workspace/utilities';
 
 @Component({
   selector: 'ui-kit-app-layout',
   templateUrl: './app-layout.component.html',
   styleUrls: ['./app-layout.component.scss'],
+  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class AppLayoutComponent implements OnInit {
   @Input() navigationMenu: AppNavigation[];
