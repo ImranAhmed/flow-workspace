@@ -194,11 +194,7 @@
       "sourceRoot": "libs/assets/src",
       "prefix": "flow-workspace",
       "architect": {},
-      "schematics": {
-        "@nrwl/angular:component": {
-          "style": "scss"
-        }
-      }
+      "schematics": {}
     },
     "utilities": {
       "projectType": "library",
