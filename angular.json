@@ -229,7 +229,7 @@
       "projectType": "library",
       "root": "libs/flow",
       "sourceRoot": "libs/flow/src",
-      "prefix": "flow",
+      "prefix": "flow-lib",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",

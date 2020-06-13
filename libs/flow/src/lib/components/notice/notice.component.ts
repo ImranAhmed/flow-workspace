@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'flow-notice',
+  selector: 'flow-lib-notice',
   templateUrl: './notice.component.html',
   styleUrls: ['./notice.component.scss'],
 })
