@@ -87,10 +87,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "apps/flow-web-app/tsconfig.app.json",
-              "apps/flow-web-app/tsconfig.spec.json"
-            ],
+            "tsConfig": ["apps/flow-web-app/tsconfig.app.json", "apps/flow-web-app/tsconfig.spec.json"],
             "exclude": ["**/node_modules/**", "!apps/flow-web-app/**"]
           }
         },
@@ -141,10 +138,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "libs/ui-kit/tsconfig.lib.json",
-              "libs/ui-kit/tsconfig.spec.json"
-            ],
+            "tsConfig": ["libs/ui-kit/tsconfig.lib.json", "libs/ui-kit/tsconfig.spec.json"],
             "exclude": ["**/node_modules/**", "!libs/ui-kit/**"]
           }
         },
@@ -215,10 +209,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "libs/utilities/tsconfig.lib.json",
-              "libs/utilities/tsconfig.spec.json"
-            ],
+            "tsConfig": ["libs/utilities/tsconfig.lib.json", "libs/utilities/tsconfig.spec.json"],
             "exclude": ["**/node_modules/**", "!libs/utilities/**"]
           }
         },
@@ -243,10 +234,7 @@
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
-            "tsConfig": [
-              "libs/flow/tsconfig.lib.json",
-              "libs/flow/tsconfig.spec.json"
-            ],
+            "tsConfig": ["libs/flow/tsconfig.lib.json", "libs/flow/tsconfig.spec.json"],
             "exclude": ["**/node_modules/**", "!libs/flow/**"]
           }
         },
